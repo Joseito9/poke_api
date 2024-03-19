@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div>
       <PokemonList />
-      <div className="btn-container">
+      <div className="loading-container">
         <button className="load-more" onClick={loadMorePokemons}>
           Load more...
         </button>

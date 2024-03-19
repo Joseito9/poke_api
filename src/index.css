@@ -39,10 +39,10 @@
   gap: 20px;
   grid-template-columns: repeat(6, 1fr);
 }
-.loading {
+.loading-container {
   display: flex;
   justify-content: center;
-  margin: 200px 0;
+  margin: 20px;
 }
 .pokemon-img {
   background-color: #f2f2f2;
@@ -67,6 +67,7 @@
 .btn-container {
   display: flex;
   justify-content: center;
+  margin: 10px;
 }
 .load-more {
   background-color: rgb(244, 106, 104);
